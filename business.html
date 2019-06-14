@@ -60,9 +60,11 @@ document.getElementsByTagName('Head')[0].appendChild(_wsc);
 
 
 <script>
-window.onload = function(){
+
+window.onload = setTimeout(loader, 3000);
+function loader(){
 document.getElementById("loader").style.display = "none";
-};
+}
 </script>
 </body>
 </html>
